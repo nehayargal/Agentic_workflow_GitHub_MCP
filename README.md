@@ -90,6 +90,10 @@ mcp_integration/
 
 
 ---
+EXAMPLE:
+<img width="2157" height="1584" alt="image" src="https://github.com/user-attachments/assets/b0e33418-fefd-4400-a354-25a276c85443" />
+<img width="2306" height="1500" alt="image" src="https://github.com/user-attachments/assets/b58d431d-0df3-4862-aad9-bf97c4fab91f" />
+
 
 ## ⚙️ Setup Instructions
 
