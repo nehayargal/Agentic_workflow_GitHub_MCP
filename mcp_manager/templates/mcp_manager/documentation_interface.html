@@ -1,0 +1,48 @@
+<!-- Task 3: Build the User Interface -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Generate Documentation</title>
+  </head>
+
+  <body>
+    <main style="max-width: 720px; margin: 40px auto; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;">
+      <h1>Generate Documentation</h1>
+      <p>Enter a GitHub repository URL and submit to generate documentation.</p>
+
+      <!--
+        NOTE:
+        - Keep action as a placeholder for now.
+        - Replace "/docs/generate" with your real route later.
+      -->
+      <form method="post" action="/docs/generate/" autocomplete="off">
+        <!-- If you're using Django later, uncomment this:
+        {% csrf_token %}
+        -->
+
+        <label for="repo_url" style="display:block; margin: 16px 0 6px;">
+          GitHub Repository URL
+        </label>
+
+        <input
+          id="repo_url"
+          name="repo_url"
+          type="url"
+          inputmode="url"
+          placeholder="https://github.com/owner/repo"
+          required
+          style="width:100%; padding:10px 12px; font-size:16px; border:1px solid #ccc; border-radius:8px;"
+        />
+
+        <button
+          type="submit"
+          style="margin-top: 14px; padding:10px 14px; font-size:16px; border-radius:8px; border:0; cursor:pointer;"
+        >
+          Submit
+        </button>
+      </form>
+    </main>
+  </body>
+</html>
